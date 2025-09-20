@@ -5,8 +5,11 @@ import { FaLinkedin } from "react-icons/fa6";
 import { motion as Motion, useInView } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
+
 function Home() {
   const [showCV, setShowCV] = useState(false);
+   const [showCert, setShowCert] = useState(false);
+
   const [animationKey, setAnimationKey] = useState(0);
 
   const sectionRef = useRef(null);
@@ -91,8 +94,14 @@ function Home() {
           <div className="bg-[#0ef] px-8 py-3 font-bold text-[#1f242d] rounded-full shadow-sm shadow-[#0ef] cursor-pointer">
             <button onClick={() => setShowCV(true)}>Download CV</button>
           </div>
-        </Motion.div>
+
+           {/* Download CV */}
+          <div className="bg-[#0ef] px-8 py-3 font-bold text-[#1f242d] rounded-full shadow-sm shadow-[#0ef] cursor-pointer">
+            <button onClick={() => setShowCert(true)}>Download Certificate</button>
+          </div>
+         </Motion.div>
       </div>
+    
 
       {/* Right Image */}
       <Motion.div
@@ -126,8 +135,28 @@ function Home() {
           />
         </div>
       )}
+
+      {showCert && (
+        <div className="fixed inset-0 z-[100] bg-black bg-opacity-90 flex items-center justify-center">
+          <button
+            onClick={() => setShowCert(false)}
+            className="absolute top-5 right-6 text-white text-4xl font-bold z-[101] hover:text-[#0ef] transition"
+          >
+            ✕
+          </button>
+
+          <img
+            src="/image/cert.jpg"
+            alt="Cert Preview"
+            className="w-full h-full object-contain px-4 md:px-10"
+          />
+        </div>
+      )}
+
+
     </div>
   );
 }
 
 export default Home;
+

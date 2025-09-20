@@ -9,20 +9,23 @@ function Project() {
   const isInView = useInView(headingRef, { threshold: 0.4 });
 
   const projects = [
+
     {
       src: "/image/menu.png",
-      text: "A user-friendly tool for restaurants, cafés, and bars to create digital menus. Show menus on screens, tablets, or QR codes, and update them anytime.",
+      text: "A user-friendly tool for restaurants, cafés, and bars to create digital menus. Show menus on screens, tablets, or QR codes, and update them anytime. P:S this project is a live project built with a team of various developers, designers, QA tester ETC ",
       textt: "Built with React, TypeScript, TailwindCSS",
       link: "https://visit.menu/",
       linkk: "https://github.com/hngprojects/Menu-Swift_Frontend",
     },
-    {
-      src: "/image/shop.png",
-      text: "A responsive e-commerce UI prototype showcasing frontend design skills, animations, and layouts, ready for full-stack expansion.",
-      textt: "Built with React/Redux, Supabase, TailwindCSS",
-      link: "https://mall-dp8u.vercel.app/",
-      linkk: "https://github.com/GoodenGooden/mall",
+
+     {
+      src: "/image/pro.png",
+      text: " This is an investment app were users can fund wallet, create a vault which includes purpose of savings, maturity and many more ",
+      textt: "Built with Next.JS, Firebase, TailwindCSS",
+      link: "https://investment-wheat-seven.vercel.app/ ",
+      linkk: " https://github.com/GoodenGooden/Investment ",
     },
+
     {
       src: "/image/cnn.png",
       text: "A responsive CNN news website clone replicating the layout and feel of CNN.",
@@ -30,6 +33,7 @@ function Project() {
       link: "https://cn-nclone.vercel.app/",
       linkk: "https://github.com/GoodenGooden/CNNclone",
     },
+
     {
       src: "/image/card.png",
       text: "A ticketing app prototype with a clean, responsive interface for ticket management with interactive components.",
@@ -37,6 +41,16 @@ function Project() {
       link: "https://ticket-nine-olive.vercel.app/",
       linkk: "https://github.com/GoodenGooden/Typescript-ticket",
     },
+
+    {
+      src: "/image/shop.png",
+      text: "A responsive e-commerce UI prototype showcasing frontend design skills, animations, and layouts, ready for full-stack expansion.",
+      textt: "Built with React/Redux, Supabase, TailwindCSS",
+      link: "https://mall-dp8u.vercel.app/",
+      linkk: "https://github.com/GoodenGooden/mall",
+    },
+
+    
     {
       src: "/image/exchange.png",
       text: "A currency converter allowing users to input a value and convert between currencies with a clean UI.",
