@@ -21,10 +21,19 @@ function Project() {
      {
       src: "/image/pro.png",
       text: " This is an investment app were users can fund wallet, create a vault which includes purpose of savings, maturity and many more ",
-      textt: "Built with Next.JS, Firebase, TailwindCSS",
+      textt: "Built with Next.JS, context API, Firebase,  TailwindCSS",
       link: "https://investment-wheat-seven.vercel.app/ ",
       linkk: " https://github.com/GoodenGooden/Investment ",
     },
+
+     {
+      src: "/image/shop.png",
+      text: "A responsive e-commerce UI prototype showcasing frontend design skills, animations, and layouts, ready for full-stack expansion.",
+      textt: "Built with React/Redux, Supabase, TailwindCSS",
+      link: "https://mall-dp8u.vercel.app/",
+      linkk: "https://github.com/GoodenGooden/mall",
+    },
+
 
     {
       src: "/image/cnn.png",
@@ -34,20 +43,13 @@ function Project() {
       linkk: "https://github.com/GoodenGooden/CNNclone",
     },
 
+    
     {
       src: "/image/card.png",
       text: "A ticketing app prototype with a clean, responsive interface for ticket management with interactive components.",
       textt: "Built with React, Context API, TypeScript, TailwindCSS",
       link: "https://ticket-nine-olive.vercel.app/",
       linkk: "https://github.com/GoodenGooden/Typescript-ticket",
-    },
-
-    {
-      src: "/image/shop.png",
-      text: "A responsive e-commerce UI prototype showcasing frontend design skills, animations, and layouts, ready for full-stack expansion.",
-      textt: "Built with React/Redux, Supabase, TailwindCSS",
-      link: "https://mall-dp8u.vercel.app/",
-      linkk: "https://github.com/GoodenGooden/mall",
     },
 
     
