@@ -119,22 +119,22 @@ function Home() {
       </Motion.div>
 
       {/* Fullscreen CV Viewer */}
-      {showCV && (
-        <div className="fixed inset-0 z-[100] bg-black bg-opacity-90 flex items-center justify-center">
-          <button
-            onClick={() => setShowCV(false)}
-            className="absolute top-5 right-6 text-white text-4xl font-bold z-[101] hover:text-[#0ef] transition"
-          >
-            ✕
-          </button>
+{showCV && (
+  <div className="fixed inset-0 z-[100] bg-black bg-opacity-90 flex items-center justify-center">
+    <button
+      onClick={() => setShowCV(false)}
+      className="absolute top-5 right-6 text-white text-4xl font-bold z-[101] hover:text-[#0ef] transition"
+    >
+      ✕
+    </button>
 
-          <img
-            src="/image/img.png"
-            alt="CV Preview"
-            className="w-full h-full object-contain px-4 md:px-10"
-          />
-        </div>
-      )}
+    <iframe
+      src="/cv.pdf"
+      className="w-full h-full px-4 md:px-10"
+    />
+  </div>
+)}
+
 
       {showCert && (
         <div className="fixed inset-0 z-[100] bg-black bg-opacity-90 flex items-center justify-center">
