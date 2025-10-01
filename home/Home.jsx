@@ -129,7 +129,7 @@ function Home() {
     </button>
 
     <iframe
-      src="/cv.pdf"
+      src="/cvtech.pdf"
       className="w-full h-full px-4 md:px-10"
     />
   </div>
